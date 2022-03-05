@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css\details.css"> 
+    <title>Document</title>
+</head>
+<body>
+  <div>
+    <div>
+        <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+  
+            <div class="container-fluid">
+                <img src="C:\Users\grohi\OneDrive\Pictures\Saved Pictures\pklogo.jpeg" alt="" style="width: 150px;height: 50px;">
+                <div id="move">
+                    <a  class="navbar-brand" href="F:/Parkfree/places.html">Home</a>
+                    <a  class="navbar-brand" href="F:/Parkfree/profile.html">Profile </a>
+                </div>
+              
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+     </div>   
+ </div>    
+     <table>
+         <tr>
+             <td>
+                <div id="form1" class="container">
+                    <form>
+                        <div class="form-group">
+                          <b> <label id="button1" for="email"> <h1>Mobile No.</h1> </label></b>
+                          <input type="text" name="Number" id="Number" required title="Minimum of 10 numbers" pattern=".{10}" required>
+                        </div>
+                        <div class="form-group">
+                          <b><label id="button1" for="characters"> <h1>Car Number</h1></label></b>
+                          <input type="text" name="characters" id="car Number" required title="Minimum of 8 characters" pattern=".{8,12}"> 
+                        </div>
+                        <button id="sub" type="button" class="btn btn-light"><a href="verification.html" onclick="startStopwatch"> Submit </a> </button>
+                        
+                      </form>
+                  
+            
+                </div>
+             </td>
+             <td>
+               <div>
+                 <img id="pic" src="data:image/png;base64,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" alt="">
+                  
+                </div>
+             </td>
+         </tr>
+     </table>
+
+
+</body>
+</html>

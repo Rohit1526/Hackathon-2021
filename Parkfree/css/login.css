@@ -1,0 +1,47 @@
+
+body{
+    padding-top: 100px;
+    background-color: black;
+}
+
+#logo{
+    padding-top: 50px;
+    padding-left: 150px;
+    
+}
+
+#row2{
+    padding-left: 400px;
+}
+#form1{
+    padding-top: 50px;
+}
+
+#row1{
+    padding-top: 250px;
+}
+
+#button1{
+    color: white;
+   
+}
+
+#log{
+    border-radius: 20px;
+
+}
+#Email{
+    height: 45px;
+    width: 250px;
+    font-size: 20px;
+}
+
+#password{
+    height: 45px;
+    width: 200px;
+    font-size: 20px;
+}
+
+#mid{
+    padding-left: 100px;
+}

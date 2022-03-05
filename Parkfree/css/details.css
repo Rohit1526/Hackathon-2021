@@ -1,0 +1,20 @@
+#form1{
+    padding-top: 200px;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-bottom: 150px;
+}
+
+#sub{
+    border-radius: 20px;
+    background-color: cornsilk;
+}
+#move{
+    padding-right: 850px
+ }
+
+#pic{
+    width: 400px;
+    height: 400px;
+    padding-right: 50px;
+}

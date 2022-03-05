@@ -1,0 +1,29 @@
+#content{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 50px;
+    padding-left: 75px;
+}
+
+#name{
+    background-color: skyblue;
+    border-radius: 20px;
+    border-width: 200px;
+    width: 600px;
+    height: 200px;
+
+}
+
+#button1{
+    background-color:cornsilk;
+    border-radius: 20px;
+}
+
+#box{
+    padding-bottom: 50px;
+    padding-right: 100px;
+}
+#move{
+    padding-right: 750px;
+ }
+
